@@ -1,7 +1,7 @@
 # bstraction is an object-oriented programming principle that focuses on exposing only essential behavior 
 # while hiding implementation details. In Python, abstraction is primarily implemented using abstract base classes (ABCs).
 from abc import ABC, abstractmethod
-# checking
+
 class Shape(ABC):
 
     @abstractmethod
