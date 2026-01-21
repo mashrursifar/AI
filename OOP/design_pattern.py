@@ -83,7 +83,7 @@ class ComputerBuilder:
 
 builder = ComputerBuilder()
 
-computer = builder.set_cpu("Intel i9").set_ram("16 GB").set_storage("1 TB").build()
+computer = builder.set_cpu("Ryzen 7").set_ram("16 GB").set_storage("1 TB").build()
 
 print(computer)
 
