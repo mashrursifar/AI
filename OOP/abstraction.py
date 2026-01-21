@@ -12,7 +12,7 @@ class Shape(ABC):
     def perimeter(self):
         pass
 
-class Rectangle(Shape):
+class Rectangle(Shape): 
 
     def __init__(self, length, width):
         self.length = length
@@ -41,4 +41,4 @@ shapes = [Rectangle(10, 5), Circle(7)]
 for shape in shapes:
     print("Area:", shape.area())
     print("Perimeter:", shape.perimeter())
-    # hello guys G
+    
